@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Jewelry Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 16px;
+        }
+        .hero {
+            background: url('jewelry-banner.jpg') no-repeat center center/cover;
+            color: rgb(27, 25, 25);
+            text-align: center;
+            padding: 100px 20px;
+        }   
+        .hero h1 {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        .hero button {
+            padding: 15px 25px;
+            font-size: 18px;
+            background: gold;
+            border: none;
+            cursor: pointer;
+        }
+        .shop-info {
+            text-align: center;
+            padding: 40px;
+            background: #fff;
+        }
+        .categories {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px;
+            background: #e0e0e0;
+        }
+        .category {
+            text-align: center;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .category img {
+            width: 150px;
+            border-radius: 10px;
+        }
+        .testimonials {
+            background: #fff;
+            padding: 40px;
+            text-align: center;
+        }
+        .newsletter {
+            background: #444;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .newsletter input {
+            padding: 10px;
+            font-size: 16px;
+            width: 60%;
+            margin-right: 10px;
+        }
+        .newsletter button {
+            padding: 10px 15px;
+            font-size: 16px;
+            background: gold;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jewelry Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="rings.html">Rings</a></li>
+                <li><a href="necklaces.html">Necklaces</a></li>
+                <li><a href="bracelets.html">Bracelets</a></li>
+                <li><a href="earrings.html">Earrings</a></li>
+                <li><a href="customization.html">Customization</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="faqs.html">FAQs</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1>Discover Timeless Beauty</h1>
+        <p>Luxury Jewelry for Every Occasion</p>
+        <button onclick="location.href='shop.html'">Shop Now</button>
+    </section>
+    <section class="shop-info">
+        <h2>Why Choose Our Jewelry?</h2>
+        <p>We provide high-quality, handcrafted jewelry made with love and precision. Our collection includes exquisite rings, elegant necklaces, stunning bracelets, and timeless earrings.</p>
+    </section>
+    <section class="categories">
+        <div class="category">
+            <img src="r1.jpg" alt="Rings">
+            <h3>Rings</h3>
+        </div>
+        <div class="category">
+            <img src="n1.jpg" alt="Necklaces">
+            <h3>Necklaces</h3>
+        </div>
+        <div class="category">
+            <img src="b1.png" alt="Bracelets">
+            <h3>Bracelets</h3>
+        </div>
+        <div class="category">
+            <img src="e1.jpg" alt="Earrings">
+            <h3>Earrings</h3>
+        </div>
+    </section>
+    <section class="testimonials">
+        <h3>What Our Customers Say</h3>
+        <p>"Absolutely stunning jewelry! The craftsmanship is top-notch." - Emily R.</p>
+        <p>"The quality is amazing and the designs are so elegant." - James P.</p>
+    </section>
+    <div class="newsletter">
+        <h3>Subscribe to Our Newsletter</h3>
+        <input type="email" placeholder="Enter your email">
+        <button>Subscribe</button>
+    </div>
+    <footer>
+        <p>&copy; 2025 Jewelry Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
